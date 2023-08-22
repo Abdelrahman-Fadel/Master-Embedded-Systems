@@ -23,7 +23,7 @@ int main()
 
 	for ( i=0 ; i<10 ; i++ ){
 		if ( x[i] < x[i+1] && x[i+1] > x[i+2] ){
-			printf("%d  ",x[i]);
+			printf("%d  ",x[i+1]);
 		}
 	}
 
