@@ -26,6 +26,12 @@ int main()
 		l--;
 	}
 	printf("\nReverse string is : %s",str);
+
+	// -->> another way , but it will print reversed string directly without making any change in array
+	//	for ( i = len ; i>=0 ; i-- ) {
+	//		printf("%c",str[i]);
+	//	}
+
 	return 0;
 }
 
